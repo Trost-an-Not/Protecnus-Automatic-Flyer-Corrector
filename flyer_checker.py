@@ -32,25 +32,4 @@ def check_new_flyer():
     print("3")
     return 3
 
-'''
-if location 2
 
-if location1 is not None:
-    x, y = pyautogui.center(location)
-    pyautogui.moveTo(x, y)
-else:
-    print("Could not find imageCPC on screen")
-
-# Try to find the first image on the screen and move the mouse to its location
-location2 = pyautogui.locateOnScreen(imageEmpty, confidence=0.9)
-if location2 is not None:
-    x, y = pyautogui.center(location)
-    pyautogui.moveTo(x, y)
-else:
-    print("Could not find imageEmpty on screen")
-
-# Wait for 1 second
-time.sleep(1)
-
-
-'''
