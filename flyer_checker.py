@@ -6,7 +6,7 @@ def check_new_flyer():
 
     time.sleep(2)
 
-    path = r"C:\Users\nikol\Downloads"
+    path = r"path"
     imageEmpty = Image.open(path + r"\emptybox.png")
     imageCPC = Image.open(path + r"\currentprecerrada3.png")
 
