@@ -17,3 +17,5 @@ pip install pytesseract
 pip install pyperclip
 pip install keyboard
 
+5. If needed, install the appropriate language package from https://tesseract-ocr.github.io/tessdoc/Data-Files.html and place it inside 
+C:\Program Files (x86)\Tesseract-OCR\tessdata.
