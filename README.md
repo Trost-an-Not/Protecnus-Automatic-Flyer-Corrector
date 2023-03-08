@@ -32,3 +32,5 @@ for char in correct:
 9. Make sure to have the IDE open as you try running the program, but make sure the window does not cover the flyer icons (and make sure that the box outline is not dotted out).
 
 10. Once you hit "run" on "main.py", click CTRL-L on the IDE icon on your window bar. Only then will it actually start executing the bulk of the code.
+
+11. If it does not properly recognise the flyers, it might be worthwhile replacing "fullbox.png" with a newly taken screenshot of the icon.
