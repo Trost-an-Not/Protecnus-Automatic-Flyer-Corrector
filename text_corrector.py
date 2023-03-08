@@ -10,7 +10,7 @@ def find_list_start(rstring):
 
 
 def correct_text(prompt_suffix):
-    openai.api_key = "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"
+    openai.api_key = "ENTER_YOUR_KEY"
 
     prompt_root = "Corregir, y enumerar las frases sin redundancia:"
     prompt = prompt_root + prompt_suffix
