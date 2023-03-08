@@ -27,6 +27,8 @@ for char in correct:
   
 7. Enter you openai API key in "text_corrector.py".
 
-8. Make sure to have the IDE open as you try running the program, but make sure the window does not cover the flyer icons (and make sure that the box outline is not dotted out).
+8. Ensure that the application is in fullscreen mode, and make sure to filter out all flyers except the "pre-cerradas". 
 
-9. Once you hit "run" on "main.py", click CTRL-L on the IDE icon on your window bar. Only then will it actually start executing the bulk of the code.
+9. Make sure to have the IDE open as you try running the program, but make sure the window does not cover the flyer icons (and make sure that the box outline is not dotted out).
+
+10. Once you hit "run" on "main.py", click CTRL-L on the IDE icon on your window bar. Only then will it actually start executing the bulk of the code.
