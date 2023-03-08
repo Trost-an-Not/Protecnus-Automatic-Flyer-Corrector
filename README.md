@@ -1,6 +1,6 @@
 # Protecnus-Automatic-Flyer-Corrector
 
-1. Do note that this build uses Python 3.8.
+1. Do note that this build uses Python 3.8. This works for Protecnus 5.9.5, "acciones correctivas".
 
 2. Make sure to install cmake and add it to the PATH on your computer. Do the same for Pytesseract and OpenCV. Make sure to uncomment the Pytesseract path inside "recognise_name.p". 
 
