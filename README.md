@@ -24,3 +24,9 @@ pip install keyboard
 for char in correct:
   keyboard.write(char)
   time.sleep(0.02)
+  
+7. Enter you openai API key in "text_corrector.py".
+
+8. Make sure to have the IDE open but make sure the window does not cover the flyer icons (and make sure that the box outline is not dotted out, that is very important).
+
+
