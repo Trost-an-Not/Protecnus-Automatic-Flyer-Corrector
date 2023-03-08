@@ -33,4 +33,4 @@ def check_new_flyer():
     print("3")
     return 3
 
-check_new_flyer()
+#check_new_flyer()
