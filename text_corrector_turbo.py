@@ -10,7 +10,7 @@ def find_list_start(rstring):
 
 
 def correct_text(prompt_suffix):
-    openai.api_key = "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"
+    openai.api_key = "ENTER_YOUR_KEY"
 
     prompt_root = "Corregir, y ENUMERAR las frases, sin comentarios  por parte de la inteligencia artificial:"
     prompt = prompt_root + prompt_suffix
