@@ -9,7 +9,7 @@ import pytesseract
 import pyperclip
 import keyboard
 
-from text_corrector import correct_text
+from text_corrector_turbo import correct_text
 from GUI_navigator_cmds import *
 from recognise_name import get_technician_name
 from flyer_checker import check_new_flyer
