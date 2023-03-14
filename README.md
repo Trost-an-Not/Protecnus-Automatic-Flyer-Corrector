@@ -27,9 +27,7 @@ for char in correct:
   
 7. Enter you openai API key in "text_corrector.py".
 
-8. To use DaVinci 3.0 to correct the flyers, in "main.py", replace "turbo" in "from text_corrector_turbo import correct_text" with "davinci".
-
-from text_corrector_turbo import correct_text
+8. To use DaVinci 3.0 to correct the flyers, in "main.py" replace "turbo" in "from text_corrector_turbo import correct_text" with "davinci".
 
 9. Ensure that the application is in fullscreen mode, and make sure to filter out all flyers except the "pre-cerradas". 
 
