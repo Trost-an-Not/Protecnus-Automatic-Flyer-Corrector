@@ -1,6 +1,6 @@
 # Protecnus-Automatic-Flyer-Corrector
 
-1. Do note that this build uses Python 3.8. This works for Protecnus 5.9.5, "acciones correctivas".
+1. Do note that this build uses Python 3.8. This works for Protecnus 5.9.5.
 
 2. Make sure to install cmake and add it to the PATH on your computer. Do the same for Pytesseract and OpenCV. Make sure to uncomment the Pytesseract path inside "recognise_name.p". 
 
@@ -25,14 +25,12 @@ for char in correct:
   keyboard.write(char)
   time.sleep(0.02)
   
-7. Enter you openai API key in "text_corrector.py".
+7. Enter you openai API key in "text_corrector_turbo.py".
 
 8. To use DaVinci 3.0 to correct the flyers, in "main.py" replace "turbo" in "from text_corrector_turbo import correct_text" with "davinci".
 
-9. Ensure that the application is in fullscreen mode, and make sure to filter out all flyers except the "pre-cerradas". 
+9. Ensure that the application Protecnus is in fullscreen mode, and make sure to filter out all flyers except the "pre-cerradas". 
 
-10. Make sure to have the IDE open as you try running the program, but make sure the window does not cover the flyer icons (and make sure that the box outline is not dotted out).
-
-11. Once you hit "run" on "main.py", click CTRL-L on the IDE icon on your window bar. Only then will it actually start executing the bulk of the code.
+10. Make sure to have the IDE open as you try running the program (you will have to type in the console), but make sure the window does not cover the flyer icons (and make sure that the box outline is not dotted out).
 
 11. If it does not properly recognise the flyers, replace "fullbox.png" with a newly taken screenshot of the icons.
